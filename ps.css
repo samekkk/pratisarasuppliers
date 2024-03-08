@@ -1,0 +1,152 @@
+@import url('https://fonts.cdnfonts.com/css/maharlika');
+
+
+*{
+	margin: 0;
+}
+body{
+	border: 20px solid #F6A360;
+
+
+
+}
+
+.container{
+	margin: 0;
+}
+
+.heading{
+	overflow: hidden;
+	font-family: 'Maharlika', sans-serif;
+	display: flex;
+	justify-content: right;
+	align-items: center;
+	font-size: 2rem;
+	padding: 5px;
+	
+}
+
+
+
+#logo{
+	height: 200px;
+	
+
+}
+
+.sub-heading{
+	font-family: inherit;
+	font-size: 2rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 5px;
+
+}
+
+.items{
+	font-size: 1.5rem;
+	overflow: auto;
+	padding: 20px;
+	font-family: 'Maharlika', sans-serif;
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.items th{
+	font-size: 1.2rem;
+}
+
+.items img{
+	border-radius: 20%;
+
+	height: 200px;
+	width: 130px;
+}
+
+.items img:hover{
+	box-shadow: rgb(79, 77, 72);
+
+}
+
+.items td{
+	padding: 10px;
+
+
+}
+
+#martin, #pepe{
+	text-align: center;
+	border-bottom: 5px solid black;
+	display: inline-block;
+}
+
+
+
+table{
+	border-collapse: collapse;
+}
+td, th{
+	border-bottom: 2px solid black;
+	padding: 5px;
+}
+#title{
+	padding-bottom: 15px;
+	font-size: 1.9rem;
+	text-align: center;
+	padding-top: 20px;
+	font-family: 'Maharlika', sans-serif;
+}
+
+.ending {
+	overflow: auto;
+	font-family: 'Maharlika', sans-serif;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	font-size: 1.2rem;
+	padding: 10px;
+	
+}
+
+.ending p{
+
+}
+@media (max-width: 720px){
+	body{
+		border: 10px solid #F6A360;
+	}
+
+	h1, p{
+		font-size: 1.3rem;
+	}
+
+	#logo{
+		height: 115px;
+	}
+
+	.items {
+		box-sizing: border-box;
+		display: block;
+		font-size: 0.8rem;
+	}
+
+	.sub-heading{
+	
+		padding-left: 8%;
+	}
+
+	#title{
+		font-weight: bold;
+		text-align: left;
+		padding-top: 50px;
+		font-size: 12px;
+	}
+
+	#pepe{
+
+	}
+	
+}
